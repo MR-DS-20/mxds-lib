@@ -1,0 +1,8 @@
+{
+  "es2015": "dist/fesm2015/bit-mxds.angular-components.async-uifeedback.js",
+  "esm2015": "dist/esm2015/bit-mxds.angular-components.async-uifeedback.js",
+  "fesm2015": "dist/fesm2015/bit-mxds.angular-components.async-uifeedback.js",
+  "module": "dist/fesm2015/bit-mxds.angular-components.async-uifeedback.js",
+  "typings": "dist/bit-mxds.angular-components.async-uifeedback.d.ts",
+  "metadata": "dist/bit-mxds.angular-components.async-uifeedback.metadata.json"
+}

@@ -1,4 +1,3 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "compileOnSave": false,
   "compilerOptions": {
@@ -19,7 +18,21 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ui": [
+        "dist/ui/ui",
+        "dist/ui"
+      ],
+      "async-ui-feedback": [
+        "dist/async-ui-feedback/async-ui-feedback",
+        "dist/async-ui-feedback"
+      ],
+      "async-uifeedback": [
+        "dist/async-uifeedback/async-uifeedback",
+        "dist/async-uifeedback"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "strictInjectionParameters": true,
