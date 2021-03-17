@@ -9,10 +9,10 @@
     "@bit/mxds.angular-components.spy-helper": "^1.0.0",
     "tslib": "^2.0.0"
   },
-  "es2015": "dist/fesm2015/bit-async-uifeedback.js",
-  "esm2015": "dist/esm2015/bit-async-uifeedback.js",
-  "fesm2015": "dist/fesm2015/bit-async-uifeedback.js",
-  "module": "dist/fesm2015/bit-async-uifeedback.js",
-  "typings": "dist/bit-async-uifeedback.d.ts",
-  "metadata": "dist/bit-async-uifeedback.metadata.json"
+  "es2015": "dist/fesm2015/bit-mxds.angular-components.async-uifeedback.js",
+  "esm2015": "dist/esm2015/bit-mxds.angular-components.async-uifeedback.js",
+  "fesm2015": "dist/fesm2015/bit-mxds.angular-components.async-uifeedback.js",
+  "module": "dist/fesm2015/bit-mxds.angular-components.async-uifeedback.js",
+  "typings": "dist/bit-mxds.angular-components.async-uifeedback.d.ts",
+  "metadata": "dist/bit-mxds.angular-components.async-uifeedback.metadata.json"
 }

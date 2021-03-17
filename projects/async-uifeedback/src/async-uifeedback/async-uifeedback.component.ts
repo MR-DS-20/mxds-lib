@@ -88,14 +88,14 @@ export class AsyncUIFeedbackComponent implements OnInit, OnDestroy {
     this.asyncEvent.start();
     setTimeout(() => {
       this.asyncEvent.complete('Event completed Successfully');
-    }, 2000);
+    }, 1500);
   }
 
   startFailure(): void {
     this.asyncEvent.start();
     setTimeout(() => {
       this.asyncEvent.error('Failure, Event not completed');
-    }, 2000);
+    }, 1500);
   }
 
   reset(): void {

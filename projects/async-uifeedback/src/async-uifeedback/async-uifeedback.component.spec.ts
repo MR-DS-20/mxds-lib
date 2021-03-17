@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 import { AsyncUIFeedbackComponent } from './async-uifeedback.component';
 
@@ -8,7 +9,8 @@ describe('AsyncUIFeedbackComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AsyncUIFeedbackComponent ]
+      declarations: [ AsyncUIFeedbackComponent ],
+      imports: [MatSnackBarModule]
     })
     .compileComponents();
   });
